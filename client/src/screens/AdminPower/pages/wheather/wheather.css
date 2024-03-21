@@ -1,0 +1,95 @@
+.wcontainer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  justify-content: center;
+  overflow-y: hidden;
+}
+.wcover {
+  width: 100%;
+  height: 80vh;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 8px 5px 5px rgb(25, 34, 41);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmPOiucmlXr5iNqFHwxORXZ50eubcEBJ8Xiy72NrOwmQVLBrKcIQMsPSI8pFsda9ClBjs&usqp=CAU");
+  background-position: center;
+  background-size: inherit;
+}
+.wcover {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  box-shadow: 8px 5px 5px rgb(25, 34, 41);
+  background-repeat: center;
+  background-position: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainboxw {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+}
+.wfirstbox {
+  width: 70%;
+  padding: 30px;
+  height: fit-content;
+  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 60%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wfirstbox img {
+  width: 100%;
+  height: 100%;
+}
+.secondbox {
+  margin-top: 30px;
+  height: fit-content;
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+input {
+  padding: 20px;
+  border-radius: 20px;
+  color: black;
+}

@@ -1,0 +1,128 @@
+.crcontainer {
+  width: 100%;
+  height: 100%;
+}
+.crwrapper {
+  min-width: 100%;
+  max-width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, black, pink);
+}
+.crmainbox {
+  max-width: 50%;
+  min-width: 50%;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../Images/menubg.jpg");
+  background-position: center;
+  border-radius: 20px;
+}
+.crheadmain {
+  font-size: 1.6rem;
+  color: rgb(22, 12, 12);
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+.crdevision {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 80%;
+  background-color: rgb(63, 73, 119);
+  justify-content: space-around;
+  align-items: center;
+}
+.sub11 {
+  color: white;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.from {
+  width: 80%;
+  height: 100%;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+  border-radius: 20px;
+}
+
+.sub12 {
+  width: 100%;
+  color: white;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.to {
+  width: 80%;
+  margin-left: 50px;
+  height: 100%;
+  outline: none;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.changingicon {
+  border: 2px solid gray;
+  box-shadow: 5px 5px 5px black;
+  max-width: 50px;
+  min-width: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.changingicon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.resultbox {
+  width: 80%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.resultmain {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.csubmit {
+  width: 20%;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: lightgreen;
+  box-shadow: 5px 5px 5px black;
+}
+.inputfield input {
+  max-width: 300px;
+  min-width: 100px;
+  padding: 20px;
+  border-radius: 20px;
+  outline: none;
+}

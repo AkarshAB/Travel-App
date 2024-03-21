@@ -1,0 +1,126 @@
+.wcontainer {
+  width: 100%;
+  height: 90vh;
+}
+.wnavbarcontainer {
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../Images/mainbg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.herosection {
+  width: 100%;
+  height: 20vh;
+  padding-left: 60%;
+  padding-top: 80px;
+  position: absolute;
+  z-index: inherit;
+}
+.herowords {
+  max-width: 460px;
+  min-width: 200px;
+  font-weight: 800;
+  padding-top: 30px;
+  font-size: 2rem;
+  color: rgb(112, 105, 105);
+}
+.searchcontainer {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  margin-top: -50px;
+  display: flex;
+  align-items: end;
+  padding-left: 35%;
+  position: absolute;
+  z-index: 1;
+}
+.gadgetsview {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  background-color: #dedede;
+}
+.gadegetsleftside {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+}
+.gadgetshead {
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.cardsec {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+}
+.cardcontainer {
+  width: 90%;
+  height: fit-content;
+  display: grid;
+  padding-left: 4%;
+  padding-right: 5%;
+  grid-column-gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.cards {
+  width: fit-content;
+  height: 50vh;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.cardimg {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.cardimg img {
+  max-width: fit-content;
+  height: 100%;
+  margin: 5px;
+  border-radius: 20px;
+}
+.username {
+  padding: 10px;
+}
+.comments {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+}
+.startbutton {
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: orange;
+  border-radius: 20px;
+  margin-left: 20%;
+}
+.startbutton:hover {
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  background-color: yellow;
+  border-radius: 20px;
+  margin-left: 20%;
+}

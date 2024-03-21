@@ -1,0 +1,200 @@
+.gadcontainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.gadwerapper {
+  max-width: 99%;
+  padding: 10px;
+}
+
+.Gnavcontainer {
+  width: 100%;
+}
+.Gmainbox {
+  min-width: 50%;
+  max-width: 100%;
+  height: 80dvh;
+  margin-top: 10px;
+  border-radius: 30px;
+  background-color: rgb(170, 161, 161);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.gsub1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gsub2 {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.mapsec {
+  max-width: 100%;
+  height: 60vh;
+  padding: 10px;
+}
+.gsub3 {
+  max-width: 100%;
+  height: 60vh;
+  padding-left: 10px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sidbarmain {
+  width: 100%;
+  height: 60vh;
+}
+.sidbarwrapper {
+  max-width: 90%;
+  min-width: 350px;
+  height: 78vh;
+  background-color: gray;
+  border-radius: 20px;
+  /* border: 5px solid white; */
+  box-shadow: 0px 2px 7px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.userSection {
+  max-width: 400px;
+  min-width: 360px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 228, 163);
+  border-radius: 40px;
+  justify-content: center;
+}
+.username,
+.currntlocation,
+.wheather {
+  padding: 4px;
+  font-weight: 500;
+}
+.dp {
+  max-width: 30%;
+  /* min-width: 150px; */
+  background-color: green;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.dp img {
+  width: 100%;
+  border-radius: 50%;
+}
+.listcontainer {
+  padding-top: 20px;
+}
+.list li {
+  list-style: none;
+  text-decoration: none;
+}
+.logout {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: 800;
+  width: 80%;
+  padding: 10px;
+  background-color: rgb(141, 18, 18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  justify-content: center;
+}
+.listitems {
+  margin: 10px;
+  font-weight: 900;
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  justify-content: center;
+  background-color: rgb(15, 82, 121);
+}
+.packagecover {
+  margin-top: 10px;
+  max-width: 350px;
+  min-width: 300px;
+  height: 30vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.packagemainhead {
+  font-weight: 800;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.packgewrapper {
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+.packageimagesection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+.packageimagesection img {
+  max-width: 100%;
+  height: 100%;
+}
+.packagebody {
+  max-width: 100%;
+  min-width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.packageinfolist {
+  font-size: 0.5rem;
+}
+.activate {
+  margin: 25px;
+  font-weight: 900;
+  padding: 5px;
+  color: white;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: rgb(3, 31, 48);
+  cursor: pointer;
+}
+.listitems:hover {
+  font-weight: 900;
+  color: black;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: lightgray;
+  cursor: pointer;
+}

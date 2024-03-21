@@ -1,0 +1,106 @@
+.safetycover{
+    width: 100%;
+    height: 80vh;
+  overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.smainhead{
+font-size: 2.5rem;
+color: white;
+font-weight: 800;
+display: flex;
+
+align-items: center;
+text-decoration:underline;
+}
+.smainhead img{
+width: 250px;
+}
+.swrapper{
+    width: 80%;
+    height: fit-content;
+    min-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    
+}
+.searchbarcontainer{
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.searchbarcontainer input{
+background-color: white;
+outline: none;
+border: none;
+padding: 20px;
+border-radius: 20px;
+}
+.searchicon{
+    padding: 20px;
+}
+.smainbox{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(20, 17, 17);
+    background-image: url('../../Images/menubg.jpg');
+}
+.countryselect{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.s1{
+    margin-right: 50%;
+}
+.name{
+    width: 100%;
+    height: fit-content;
+}
+.ecard{
+    max-width: 100%;
+    min-width: 400px;
+    height: fit-content;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 10px;
+    margin: 10px;
+}
+.danger{
+    color: black;
+    background-color: rgb(175, 103, 103);
+    max-width: 100%;
+    min-width: 400px;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 20px;
+}
+.safe{
+    color: black;
+    background-color: green;
+    max-width: 100%;
+    min-width: 400px;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 20px;
+}
+.message
+{
+    padding: 10px;
+}

@@ -1,0 +1,94 @@
+.Alogincontainer1{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background: linear-gradient(to bottom right, black, pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: none;
+  }
+  .Aloginwrapper1{
+    max-width: 660px;
+    min-width: 500px;
+    height: 500px;
+    background-image: url("../../../../Images/menubg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: 12px 12px 12px;
+    opacity: 80%;
+    z-index: 1;
+  }
+  .Aiconsection12{
+    display: flex;
+    max-width: 60%;
+    margin-top: 20px;
+    border-radius: 50%;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+  }
+  .Aiconsection12 img {
+    max-width: 150px;
+    min-width: 100px;
+    opacity: 100%;
+  }
+  .Adesc1{
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(54, 52, 52);
+    margin-left: -60px;
+    padding-top: 40px;
+  }
+  .Aloginbox1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    opacity: 100%;
+    padding-left: 20px;
+  }
+  .Amainhead1{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  .Ainputcontainer1{
+    padding: 20px;
+  }
+  .Ainputcontainer1 input {
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: none;
+  }
+  .Ainputcontainer input:hover {
+    background-color: rgb(216, 216, 216);
+  }
+  .Abutton-login {
+    margin-left: 50%;
+    margin-top: 10px;
+    max-width: 160px;
+    padding: 15px;
+    font-weight: 800;
+    background-color: lightblue;
+    border-radius: 20px;
+    color: rgb(109, 78, 78);
+  }
+  .Abutton-login:hover {
+    padding: 20px;
+    background-color: rgb(103, 103, 139);
+    color: white;
+    cursor: pointer;
+  }
+  .Aregisterlink {
+    color: white;
+  }
+  
